@@ -4,4 +4,6 @@ a = 2
  unless a == 'saludo'
   
   puts 'La condición es verdadera.'
+ 
 end 
+
