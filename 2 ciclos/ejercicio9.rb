@@ -11,3 +11,14 @@
 </table>
 
 =end
+
+string = " "
+3.times  do |i|
+	i += 1
+	string += "<td> #{i} </td>\n"
+	
+end
+tr = "<tr>\n#{string}</tr>\n"
+tbody = "<tbody>\n#{tr}</tbody>\n"
+table = "<table>\n#{tbody}</table>\n"
+puts table

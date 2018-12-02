@@ -11,7 +11,7 @@
 a = 5
 b = "<ul>\n"
 
-5.times do
+a.times do
   b += "<li> hola </li>\n" 
 end
 b+= "</ul>"
